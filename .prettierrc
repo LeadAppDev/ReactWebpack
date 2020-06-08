@@ -1,8 +1,0 @@
-{
-  bracketSpacing: true,
-  extensions: [".css", ".scss", ".js", ".jsx"],
-  semi: true,
-  singleQuote: true,
-  tabWidth: 2,
-  trailingComma: "all"
-}

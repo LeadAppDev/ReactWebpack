@@ -1,46 +1,38 @@
 {
-    "env": {
-        "browser": true,
-        "es2020": true
-    },
-    "extends": [
-        "plugin:prettier/recommended",
-        "eslint:recommended",
-        "plugin:react/recommended"
-    ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 11,
-        "sourceType": "module"
-    },
-    "plugins": [
-        "react"
-    ],
-    "rules": {
-        "array-bracket-newline": [
-            "error",
-            "always"
-        ],
-        "eqeqeq": "error",
-        "no-unused-vars": "warn",
-        "no-multi-spaces": "warn",
-        "no-irregular-whitespace": "error",
-        "no-fallthrough": "error",
-        "no-extra-semi": "error",
-        "spaced-comment": "error",
-        "prettier/prettier": [
-            "warn",
-            {},
-            {
-                "usePrettierrc": true
-            }
-        ]
-    },
-    "settings": {
-        "react": {
-            "version": "detect"
-        }
-    }
+	"env": {
+		"browser": true,
+		"es2020": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended"
+	],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 11,
+		"sourceType": "module"
+	},
+	"plugins": [
+		"react"
+	],
+	"rules": {
+		"eqeqeq": "error",
+		"no-empty-pattern": "error",
+		"no-irregular-whitespace": "error",
+		"no-multi-spaces": "error",
+		"no-unused-vars": "warn",
+		"no-fallthrough": "error",
+		"no-extra-semi": "error",
+		"quotes": [
+			"error",
+			"single"
+		]
+	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	}
 }
