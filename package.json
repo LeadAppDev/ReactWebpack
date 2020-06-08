@@ -19,13 +19,14 @@
     "babel-preset-react-app": "^9.1.2",
     "css-loader": "^3.5.3",
     "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-react": "^7.20.0",
     "html-webpack-plugin": "^4.3.0",
     "node-sass": "^4.14.1",
     "prettier": "^2.0.5",
-    "prettier-webpack-plugin": "^1.2.0",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
@@ -36,45 +37,5 @@
     "presets": [
       "react-app"
     ]
-  },
-  "eslintConfig": {
-    "env": {
-      "browser": true,
-      "es2020": true,
-      "jest": true,
-      "node": true
-    },
-    "extends": [
-      "eslint:recommended",
-      "plugin:react/recommended",
-      "plugin:import/errors",
-      "plugin:import/warnings"
-    ],
-    "parser": "babel-eslint",
-    "parserOptions": {
-      "ecmaFeatures": {
-        "jsx": true
-      },
-      "ecmaVersion": 2018,
-      "sourceType": "module"
-    },
-    "plugins": [
-      "react"
-    ],
-    "rules": {
-      "eqeqeq": "error",
-      "no-unused-vars": "warn",
-      "no-multi-spaces": "warn",
-      "no-irregular-whitespace": "error",
-      "no-fallthrough": "error",
-      "no-extra-semi": "error",
-      "spaced-comment": "warn"
-    },
-    "settings": {
-      "react": {
-        "version": "detect"
-      }
-    },
-    "root": true
   }
 }
